@@ -32,6 +32,9 @@ genfscon sysfs /devices/platform/soc/soc:fpc1020/hw_reset				u:object_r:vendor_s
 genfscon sysfs /devices/platform/soc/soc:fpc1020/wakeup_enable			u:object_r:vendor_sysfs_fingerprint:s0
 genfscon sysfs /devices/platform/soc/soc:fpc1020/fingerdown_wait        u:object_r:vendor_sysfs_fingerprint:s0
 
+# Touchpanel
+genfscon sysfs /touchpanel                                                                          u:object_r:sysfs_touchpanel:s0
+
 # Wakeup source stats
 genfscon sysfs /devices/virtual/input/input1/wakeup                                                                                                u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/soc/890000.i2c/i2c-1/1-005a/osc_save                                                                              u:object_r:sysfs_wakeup:s0
