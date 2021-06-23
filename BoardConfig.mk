@@ -123,6 +123,10 @@ ODM_MANIFEST_JOYEUSE_FILES := $(DEVICE_PATH)/hidl/manifest_joyeuse.xml
 ODM_MANIFEST_SKUS += \
     joyeuse
 
+# Init
+TARGET_INIT_VENDOR_LIB ?= //$(COMMON_PATH):init_xiaomi_atoll
+TARGET_RECOVERY_DEVICE_MODULES ?= init_xiaomi_atoll
+
 # Media
 TARGET_USES_ION := true
 TARGET_DISABLED_UBWC := true
