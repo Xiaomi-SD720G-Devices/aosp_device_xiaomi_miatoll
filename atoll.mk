@@ -371,7 +371,7 @@ PRODUCT_COPY_FILES += \
 
 # Power
 PRODUCT_PACKAGES += \
-    android.hardware.power@1.3-service.xiaomi_sm6250 \
+    android.hardware.power-service.xiaomi-libperfmgr \
     android.hardware.power.stats@1.0-service.mock
 
 # Permissions
@@ -446,6 +446,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
     hardware/google/interfaces \
+    hardware/google/pixel \
     hardware/xiaomi \
     kernel/xiaomi/sm6250
 
