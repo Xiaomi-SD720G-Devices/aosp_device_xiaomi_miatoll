@@ -45,6 +45,7 @@ ro.vendor.display.sensortype=2
 ro.vendor.display.svi=1
 vendor.display.svi.config=1
 vendor.display.svi.config_path=/vendor/etc/SVIConfig.xml
+debug.hwui.renderer=opengl
 
 # DPM
 persist.dpm.feature=1
@@ -61,7 +62,6 @@ debug.cpurend.vsync=false
 
 # SkiaGL Threaded
 debug.renderengine.backend=skiaglthreaded
-debug.hwui.renderer=skiagl
 renderthread.skia.reduceopstasksplitting=true 
 
 # IMS
