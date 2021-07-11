@@ -177,6 +177,7 @@ BOARD_FLASH_BLOCK_SIZE := 131072
 TARGET_OTA_ASSERT_DEVICE := curtana,excalibur,gram,joyeuse
 
 # Platform
+BOARD_VENDOR := xiaomi
 TARGET_BOARD_PLATFORM := atoll
 
 # Power
