@@ -94,7 +94,7 @@
 /sys/devices/platform/soc/c440000.qcom,spmi/spmi-0/spmi0-02/c440000.qcom,spmi:qcom,pm8150b@2:vadc@3100/iio:device1(/.*)?        u:object_r:vendor_sysfs_iio:s0
 
 # Thermal
-/vendor/bin/hw/android\.hardware\.thermal@2\.0-service\.pixel                     u:object_r:hal_thermal_default_exec:s0
+/vendor/bin/hw/android\.hardware\.thermal@2\.0-service\.xiaomi_atoll                     u:object_r:hal_thermal_default_exec:s0
 
 # WiFi
 /vendor/bin/nv_mac                                                      u:object_r:vendor_wcnss_service_exec:s0
