@@ -169,6 +169,7 @@ ro.hardware.keystore_desede=true
 debug.hwui.use_hint_manager=true
 debug.hwui.target_cpu_time_percent=30
 ro.config.avoid_gfx_accel=true
+ro.surface_flinger.protected_contents=true
 
 # Media
 debug.stagefright.ccodec=1
