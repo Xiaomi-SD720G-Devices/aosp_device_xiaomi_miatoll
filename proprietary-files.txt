@@ -122,6 +122,9 @@ vendor/lib64/libaudio_log_utils.so
 system_ext/lib/vendor.qti.hardware.audiohalext@1.0.so
 system_ext/lib64/vendor.qti.hardware.audiohalext@1.0.so
 
+# Audio (Spatial audio) - from google/cheetah/cheetah:14/UP1A.231105.003/11010452:user/release-keys
+vendor/lib/soundfx/libspatialaudio.so
+
 # Battery
 vendor/bin/batterysecret
 vendor/etc/init/init.batterysecret.rc
