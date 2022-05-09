@@ -86,6 +86,9 @@ vendor/lib/libsurround_3mic_proc.so
 vendor/lib/soundfx/libasphere.so
 vendor/lib/soundfx/libshoebox.so
 
+# Audio (Spatial audio) - from google/cheetah/cheetah:14/UP1A.231105.003/11010452:user/release-keys
+vendor/lib/soundfx/libspatialaudio.so|c84a1098a775401344d97d3c7638498d9207ccad
+
 # Battery
 vendor/bin/batterysecret
 vendor/etc/init/init.batterysecret.rc

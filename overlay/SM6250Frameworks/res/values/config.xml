@@ -571,4 +571,8 @@
          strictly needed. -->
     <bool name="config_sf_limitedAlpha">true</bool>
 
+     <!-- The default value for whether head tracking for
+         spatial audio is enabled for a newly connected audio device -->
+    <bool name="config_spatial_audio_head_tracking_enabled_default">true</bool>
+
 </resources>
