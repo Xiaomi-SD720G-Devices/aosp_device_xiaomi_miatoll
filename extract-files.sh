@@ -74,6 +74,9 @@ function blob_fixup() {
     sed -i 's|<hal format="hidl">|<hal format="hidl" override="true">|g' "${2}"
     sed -i "/ozoaudio/d" "${2}"
     ;;
+    vendor/bin/hw/dolbycodec2)
+    patchelf --replace-needed libavservices_minijail_vendor.so libavservices_minijail.so "${2}"
+    ;;
     esac
 }
 
