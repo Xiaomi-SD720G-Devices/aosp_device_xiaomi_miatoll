@@ -488,6 +488,7 @@ PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
     hardware/google/interfaces \
     hardware/google/pixel \
+    hardware/sony/timekeep \
     hardware/xiaomi \
     kernel/xiaomi/sm6250
 
@@ -560,6 +561,10 @@ PRODUCT_COPY_FILES += \
 # Ueventd
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/ueventd.rc:$(TARGET_COPY_OUT_VENDOR)/ueventd.rc
+
+# TimeKeep
+PRODUCT_PACKAGES += \
+    TimeKeep
 
 # USB
 PRODUCT_PACKAGES += \

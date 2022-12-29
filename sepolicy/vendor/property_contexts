@@ -38,5 +38,8 @@ ro.vendor.ril              u:object_r:vendor_public_vendor_default_prop:s0
 # Thermal
 vendor.sys.thermal.		u:object_r:vendor_thermal_engine_prop:s0
 
+# Time
+persist.vendor.timeadjust               u:object_r:vendor_timekeep_prop:s0
+
 # WiFi Display
 persist.vendor.setWFDInfo.                                      u:object_r:vendor_wfd_sys_debug_prop:s0
