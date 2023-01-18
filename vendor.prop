@@ -161,6 +161,10 @@ keyguard.no_require_sim=true
 # Keystore
 ro.hardware.keystore_desede=true
 
+#Graphics
+debug.hwui.use_hint_manager=true
+debug.hwui.target_cpu_time_percent=30
+
 # Media
 debug.stagefright.ccodec=1
 debug.stagefright.omx_default_rank=0
