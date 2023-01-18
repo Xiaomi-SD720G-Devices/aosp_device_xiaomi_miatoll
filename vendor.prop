@@ -220,3 +220,9 @@ ro.soc.model=SM7125
 
 # Wi-Fi
 wifi.aware.interface=wifi-aware0
+
+# IMS
+persist.vendor.ims.disableADBLogs=1
+persist.vendor.ims.disableDebugLogs=1
+persist.vendor.ims.disableIMSLogs=1
+persist.vendor.ims.disableQXDMLogs=1
