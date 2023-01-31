@@ -556,7 +556,7 @@ PRODUCT_COPY_FILES += \
 
 # Thermal HAL
 PRODUCT_PACKAGES += \
-    android.hardware.thermal@2.0-service.pixel \
+    android.hardware.thermal-service.pixel \
     thermal_symlinks
 
 PRODUCT_COPY_FILES += \
