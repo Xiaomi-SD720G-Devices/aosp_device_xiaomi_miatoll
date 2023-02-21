@@ -106,8 +106,7 @@ PRODUCT_PACKAGES += \
     libgui_vendor \
     libcamera2ndk_vendor \
     vendor.qti.hardware.camera.postproc@1.0.vendor \
-    Aperture \
-    GCamGOPrebuilt-V3
+    Aperture 
 
 PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-impl \
