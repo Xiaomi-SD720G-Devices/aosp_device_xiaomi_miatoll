@@ -33,6 +33,8 @@ ro.com.google.lens.oem_camera_package=com.android.camera
 persist.dbg.volte_avail_ovr=1
 persist.dbg.vt_avail_ovr=1
 persist.dbg.wfc_avail_ovr=1
+persist.vendor.radio.report_codec=1
+persist.vendor.radio.vdp_on_ims_cap=1
 
 # Media
 media.stagefright.thumbnail.prefer_hw_codecs=true
