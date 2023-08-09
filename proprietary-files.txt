@@ -663,8 +663,8 @@ vendor/etc/init/vendor.qti.hardware.dsp@1.0-service.rc
 vendor/etc/seccomp_policy/vendor.qti.hardware.dsp.policy
 vendor/lib64/vendor.qti.hardware.dsp@1.0.so
 
-# Fingerprint
-vendor/lib64/hw/fingerprint.fpc.default.so|645bf256da2db3ce60dddab9b3282ab7241bbcb0
+# Fingerprint - from POCO/gram_in/gram:12/RKQ1.211019.001/V14.0.5.0.SJPINXM:user/release-keys
+vendor/lib64/hw/fingerprint.fpc.default.so|f035d15225ac593b5e9afe2ecb62e4e81e3bc952
 vendor/lib64/hw/fingerprint.goodix.default.so
 vendor/lib64/com.fingerprints.extension@1.0.so
 vendor/lib64/libgf_ca.so
