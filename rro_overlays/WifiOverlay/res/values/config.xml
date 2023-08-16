@@ -38,7 +38,10 @@
 
     <!-- Indicates that p2p MAC randomization is supported on this device -->
     <bool translatable="false" name="config_wifi_p2p_mac_randomization_supported">true</bool>
-
+     
+    <!-- Default access point SSID used for tethering -->
+    <string name="wifi_tether_configure_ssid_default" translatable="false"> Xiaomi SD720G Device </string>
+     
     <!-- Channel list for softap 2G band. Empty means all channels -->
     <string translateble="false" name="config_wifiSoftap2gChannelList"></string>
     <!-- Channel list for softap 5G band. Empty means all channels -->
