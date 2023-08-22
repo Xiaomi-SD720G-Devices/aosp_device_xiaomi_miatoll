@@ -12,6 +12,10 @@
     "target_path": "hardware/Motorola/Dolby"
   },
   {
+    "repository": "android_hardware_google_pixel",
+    "target_path": "hardware/google/pixel"
+  },
+  {
     "repository": "hardware_sony_timekeep",
     "target_path": "hardware/sony/timekeep"
   },

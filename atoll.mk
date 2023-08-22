@@ -352,7 +352,7 @@ PRODUCT_PACKAGES += \
 
 # MiuiCamera
 $(call inherit-product-if-exists, vendor/xiaomi/miuicamera/config.mk)
-TARGET_SHIPS_GALLERY := true
+TARGET_SHIPS_GALLERY := false
 
 # Network
 PRODUCT_COPY_FILES += \
