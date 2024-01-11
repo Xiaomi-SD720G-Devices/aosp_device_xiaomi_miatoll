@@ -1056,6 +1056,24 @@ vendor/etc/seccomp_policy/codec2.vendor.base.policy|05b0779b5da2ea640984d46a46a7
 vendor/lib/libqcodec2.so|d799248294af4cf923f851111dc3b77f70622edc
 vendor/lib64/libqcodec2.so|4253b248baf778fd6e87fdc1b6c0403a92edc401
 
+# Media (Dolby Vision)
+vendor/bin/hw/dolbycodec2
+vendor/etc/dolby_vision.cfg
+vendor/etc/init/dolbycodec2.rc
+vendor/etc/media_codecs_system_default_yupik.xml
+vendor/etc/media_codecs_with_dolby_yupik.xml
+vendor/etc/media_codecs_yupik_v1.xml
+-vendor/etc/vintf/manifest/c2_manifest_vendor.xml:odm/etc/vintf/manifest/c2_manifest_xiaomi.xml
+vendor/lib/c2.dolby.avc.dec.so
+vendor/lib/c2.dolby.avc.sec.dec.so
+vendor/lib/c2.dolby.client.so
+vendor/lib/c2.dolby.egl.so
+vendor/lib/c2.dolby.hevc.dec.so
+vendor/lib/c2.dolby.hevc.sec.dec.so
+vendor/lib/c2.dolby.store.so
+vendor/lib/libdolbyottcameracontrol.so
+vendor/lib/libdovi.so
+
 # MiSys
 vendor/bin/hw/vendor.xiaomi.hardware.misys@1.0-service
 vendor/bin/hw/vendor.xiaomi.hardware.misys@2.0-service

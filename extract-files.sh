@@ -70,6 +70,10 @@ function blob_fixup() {
     # NOP out report_input_event()
     "${SIGSCAN}" -p "30 00 00 90 11 3a 42 f9" -P "30 00 00 90 1f 20 03 d5" -f "${2}"
     ;;
+    odm/etc/vintf/manifest/c2_manifest_xiaomi.xml)
+    sed -i 's|<hal format="hidl">|<hal format="hidl" override="true">|g' "${2}"
+    sed -i "/ozoaudio/d" "${2}"
+    ;;
     esac
 }
 
