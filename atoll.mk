@@ -154,6 +154,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.frameworks.displayservice@1.0.vendor
 
+# Dolby - Vision
+$(call inherit-product, hardware/Dolby-Vision/dolby-vision.mk)
+
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm-service.clearkey \
@@ -305,7 +308,7 @@ PRODUCT_PACKAGES += \
     android.hardware.media.c2@1.0.vendor \
     android.hardware.media.c2@1.1.vendor \
     android.hardware.media.c2@1.2.vendor
-
+    
 # Enable Codec 2.0
 PRODUCT_PROPERTY_OVERRIDES += \
     debug.media.codec2=2 \

@@ -66,6 +66,11 @@ TARGET_USES_COLOR_METADATA := true
 TARGET_USES_DRM_PP := true
 USE_OPENGL_RENDERER := true
 
+# Dolby Vision
+SOONG_CONFIG_NAMESPACES += dolby_vision
+SOONG_CONFIG_dolby_vision += enabled
+SOONG_CONFIG_dolby_vision_enabled := true
+
 # Filesystem
 TARGET_FS_CONFIG_GEN := $(DEVICE_PATH)/config.fs
 
