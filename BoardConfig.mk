@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2020 The LineageOS Project
+# Copyright (C) 2021-2024 The LineageOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -186,9 +186,6 @@ TARGET_OTA_ASSERT_DEVICE := curtana,excalibur,gram,joyeuse
 # Platform
 BOARD_VENDOR := xiaomi
 TARGET_BOARD_PLATFORM := atoll
-
-# Power
-TARGET_TAP_TO_WAKE_NODE := "/sys/touchpanel/double_tap"
 
 # Properties
 TARGET_ODM_PROP += $(DEVICE_PATH)/properties/odm.prop
