@@ -159,6 +159,8 @@ $(call inherit-product, hardware/Dolby-Vision/dolby-vision.mk)
 
 # DRM
 PRODUCT_PACKAGES += \
+    android.hardware.drm@1.0-impl \
+    android.hardware.drm@1.0-service \
     android.hardware.drm-service.clearkey \
     android.hardware.drm@1.4.vendor
 
