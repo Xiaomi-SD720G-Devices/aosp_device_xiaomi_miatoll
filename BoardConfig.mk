@@ -119,7 +119,10 @@ ART_BUILD_HOST_DEBUG := false
 BOARD_HAVE_QCOM_FM := true
 
 # HIDL
-DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/hidl/manifest.xml
+TARGET_USES_CUSTOM_C2_MANIFEST := true
+DEVICE_MANIFEST_FILE := \
+    $(DEVICE_PATH)/hidl/manifest.xml \
+    $(DEVICE_PATH)/hidl/c2_manifest_vendor.xml
 DEVICE_MATRIX_FILE := $(DEVICE_PATH)/hidl/compatibility_matrix.xml
 DEVICE_FRAMEWORK_MANIFEST_FILE := $(DEVICE_PATH)/hidl/framework_manifest.xml
 ODM_MANIFEST_JOYEUSE_FILES := $(DEVICE_PATH)/hidl/manifest_joyeuse.xml

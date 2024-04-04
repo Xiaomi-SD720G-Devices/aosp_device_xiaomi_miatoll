@@ -295,16 +295,42 @@ PRODUCT_PACKAGES += \
     libOmxVdec \
     libOmxVenc \
     libstagefrighthw \
-    libc2dcolorconvert \
-    libcodec2_vndk
+    libc2dcolorconvert
+
+# Media Codec2 modules
+PRODUCT_PACKAGES += \
+    com.android.media.swcodec \
+    libsfplugin_ccodec \
+    libsfplugin_ccodec_utils.vendor \
+    libcodec2_soft_common.vendor \
+    libcodec2_hidl@1.1.vendor \
+    libcodec2_hidl@1.2.vendor \
+    libcodec2_vndk \
+    android.hardware.media.c2@1.0.vendor \
+    android.hardware.media.c2@1.1.vendor \
+    android.hardware.media.c2@1.2.vendor
+
+# Enable Codec 2.0
+PRODUCT_PROPERTY_OVERRIDES += \
+    debug.media.codec2=2 \
+    debug.stagefright.ccodec=4 \
+    debug.stagefright.omx_default_rank=512
+
+# Transcoding related property.
+PRODUCT_PROPERTY_OVERRIDES += \
+    debug.media.transcoding.codec_max_operating_rate_720P=480 \
+    debug.media.transcoding.codec_max_operating_rate_1080P=240 \
+    debug.media.transcoding.codec_max_operating_rate_4k=120
 
 # Media (Video configuration files)
 PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/media/media_codecs_c2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_c2.xml \
     $(LOCAL_PATH)/media/media_codecs_performance.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_performance.xml \
     $(LOCAL_PATH)/media/media_codecs_vendor.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs.xml \
     $(LOCAL_PATH)/media/media_codecs_vendor_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_vendor_audio.xml \
     $(LOCAL_PATH)/media/media_profiles.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_V1_0.xml \
     $(LOCAL_PATH)/media/seccomp_policy/mediacodec-seccomp.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediacodec.policy \
+    $(LOCAL_PATH)/media/seccomp_policy/codec2.vendor.ext.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/codec2.vendor.ext.policy \
     $(LOCAL_PATH)/media/seccomp_policy/system_properties.xml:$(TARGET_COPY_OUT_VENDOR)/etc/system_properties.xml
 
 PRODUCT_COPY_FILES += \
@@ -320,6 +346,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libminijail \
     libavservices_minijail \
+    libavservices_minijail_vendor \
     libavservices_minijail.vendor
 
 # MiuiCamera

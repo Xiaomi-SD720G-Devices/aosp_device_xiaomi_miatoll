@@ -49,6 +49,9 @@
 # Light
 /vendor/bin/hw/android\.hardware\.light-service\.xiaomi           u:object_r:hal_light_default_exec:s0
 
+# Media
+/(vendor|system/vendor)/bin/hw/vendor\.qti\.media\.c2@1\.0-service u:object_r:mediacodec_exec:s0
+
 # Power HAL
 /vendor/bin/hw/android\.hardware\.power-service\.xiaomi-libperfmgr      u:object_r:hal_power_default_exec:s0
 
