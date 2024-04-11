@@ -20,6 +20,9 @@ persist.vendor.dpm.feature=11
 persist.vendor.camera.privapp.list=com.android.camera
 vendor.camera.aux.packagelist=com.android.camera
 
+# Filesystem
+fs_mgr.overlayfs.prefer_cache_backing_storage=true
+
 # FUSE
 persist.sys.fuse.passthrough.enable=true
 
