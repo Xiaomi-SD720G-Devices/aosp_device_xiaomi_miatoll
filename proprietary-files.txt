@@ -236,6 +236,7 @@ vendor/lib/libmdsprpc.so
 vendor/lib/libsdsprpc.so
 vendor/lib/libsns_fastRPC_util.so
 vendor/lib/libswregistrationalgo.so
+vendor/lib/vendor.qti.hardware.camera.device@1.0.so
 vendor/lib64/camera/components/etc/visidon_clearshot_params.xml
 vendor/lib64/camera/components/com.almalence.node.sr.so
 vendor/lib64/camera/components/com.altek.node.depurple.so
@@ -417,6 +418,7 @@ vendor/lib64/libvideofilter_only.so
 vendor/lib64/libvidhance.so
 vendor/lib64/libxmi_high_dynamic_range.so
 vendor/lib64/libxml2_vendor.so
+vendor/lib64/vendor.qti.hardware.camera.device@1.0.so
 
 # Camera (Megvii)
 vendor/etc/camera/megviifacepp_0_5_2_model
@@ -473,6 +475,7 @@ vendor/etc/cne/mwqem.conf|c42ad47b34b511075e5dfb9047d32f881fe0c159
 vendor/etc/cne/profileMwqem.xml|947917691684584b7e2ddf3588cd6f8e99f3804f
 vendor/etc/default-permissions/com.qualcomm.qti.cne.xml|c63c37d067e3009735fbc54d4603d43d7d6623e1
 vendor/etc/init/cnd.rc|3a5183df3479500fb729493bc56c71166fc10bce
+vendor/lib/vendor.qti.hardware.cacert@1.0.so
 vendor/lib64/libcne.so|29b01f953c70ab3caa70056abdfc6732b6e1e01a
 vendor/lib64/libcneapiclient.so|0973dc05f6d6d9c469fc804693af79e6f3a5056a
 vendor/lib64/libcneoplookup.so|60d6abe85061de4fa75e5e4f69d477f37f1f8f64
@@ -553,6 +556,7 @@ vendor/lib64/libStDrvInt.so
 vendor/lib64/libcpion.so
 vendor/lib64/libdrmfs.so
 vendor/lib64/libdrmtime.so
+vendor/lib64/libminkdescriptor.so
 vendor/lib64/libminkdescriptor.so
 vendor/lib64/libminksocket.so
 vendor/lib64/liboemcrypto.so
@@ -692,6 +696,38 @@ vendor/etc/lowi.conf
 vendor/etc/sap.conf
 vendor/etc/xtra_root_cert.pem
 vendor/etc/xtwifi.conf
+vendor/lib/hw/android.hardware.gnss@2.1-impl-qti.so
+vendor/lib/hw/vendor.qti.gnss@4.0-impl.so
+vendor/lib/libaoa.so
+vendor/lib/libbatching.so
+vendor/lib/libcacertclient.so
+vendor/lib/libdataitems.so
+vendor/lib/libgarden.so
+vendor/lib/libgdtap.so
+vendor/lib/libgeofencing.so
+vendor/lib/libgnss.so
+vendor/lib/libgps.utils.so
+vendor/lib/libizat_client_api.so
+vendor/lib/libizat_core.so
+vendor/lib/liblbs_core.so
+vendor/lib/libloc_api_v02.so
+vendor/lib/libloc_core.so
+vendor/lib/libloc_socket.so
+vendor/lib/liblocation_api.so
+vendor/lib/liblocationservice.so
+vendor/lib/liblocationservice_glue.so
+vendor/lib/liblowi_client.so
+vendor/lib/libqcc_file_agent.so
+vendor/lib/libsynergy_loc_api.so
+vendor/lib/libxtadapter.so
+vendor/lib/vendor.qti.gnss@1.0.so
+vendor/lib/vendor.qti.gnss@1.1.so
+vendor/lib/vendor.qti.gnss@1.2.so
+vendor/lib/vendor.qti.gnss@2.0.so
+vendor/lib/vendor.qti.gnss@2.1.so
+vendor/lib/vendor.qti.gnss@3.0.so
+vendor/lib/vendor.qti.gnss@4.0-service.so
+vendor/lib/vendor.qti.gnss@4.0.so
 vendor/lib64/hw/android.hardware.gnss@2.1-impl-qti.so
 vendor/lib64/hw/vendor.qti.gnss@4.0-impl.so
 vendor/lib64/libaoa.so
@@ -1307,6 +1343,9 @@ vendor/firmware/aw8624_rtp.bin
 vendor/firmware/drv2624.bin
 vendor/firmware/drv2624.rtp
 
+# Unknown
+vendor/lib64/libspl.so
+
 # WiFi
 vendor/bin/cnss-daemon
 
@@ -1328,6 +1367,7 @@ system_ext/lib/libwfdaac.so
 system_ext/lib/libwfdavenhancements.so
 system_ext/lib/libwfdcommonutils.so
 system_ext/lib/libwfdconfigutils.so
+system_ext/lib/libwfddisplayconfig.so
 system_ext/lib/libwfdmminterface.so
 system_ext/lib/libwfdmmsink.so
 system_ext/lib/libwfdmmsrc_system.so
@@ -1349,6 +1389,7 @@ system_ext/lib64/libmmrtpencoder.so
 system_ext/lib64/libwfdclient.so
 system_ext/lib64/libwfdcommonutils.so
 system_ext/lib64/libwfdconfigutils.so
+system_ext/lib64/libwfddisplayconfig.so
 system_ext/lib64/libwfdmminterface.so
 system_ext/lib64/libwfdmmsink.so
 system_ext/lib64/libwfdnative.so
@@ -1371,6 +1412,7 @@ vendor/etc/seccomp_policy/wfdvndservice.policy
 vendor/etc/seccomp_policy/wifidisplayhalservice.policy
 vendor/etc/wfdconfig.xml
 vendor/lib/libFileMux_proprietary.so
+vendor/lib/libmmosal.so
 vendor/lib/libmmrtpdecoder_proprietary.so
 vendor/lib/libmmrtpencoder_proprietary.so
 vendor/lib/libwfdcodecv4l2_proprietary.so
