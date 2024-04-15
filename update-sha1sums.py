@@ -20,7 +20,7 @@ import os
 import sys
 from hashlib import sha1
 
-device='sm6250-common'
+device='miatoll'
 vendor='xiaomi'
 
 with open('proprietary-files.txt', 'r') as f:
