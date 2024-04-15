@@ -100,6 +100,7 @@ TARGET_SCREEN_WIDTH := 1080
 
 # Camera
 PRODUCT_PACKAGES += \
+    libpiex_shim \
     libgui_vendor \
     libcamera2ndk_vendor \
     vendor.qti.hardware.camera.postproc@1.0.vendor \
@@ -444,10 +445,6 @@ PRODUCT_SOONG_NAMESPACES += \
     hardware/google/interfaces \
     hardware/xiaomi \
     kernel/xiaomi/sm6250
-
-# Shim
-PRODUCT_PACKAGES += \
-    libwatermark_shim
 
 # Telephony
 PRODUCT_PACKAGES += \

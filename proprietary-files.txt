@@ -236,7 +236,6 @@ vendor/lib/libmdsprpc.so
 vendor/lib/libsdsprpc.so
 vendor/lib/libsns_fastRPC_util.so
 vendor/lib/libswregistrationalgo.so
-vendor/lib/vendor.qti.hardware.camera.device@1.0.so
 vendor/lib64/camera/components/etc/visidon_clearshot_params.xml
 vendor/lib64/camera/components/com.almalence.node.sr.so
 vendor/lib64/camera/components/com.altek.node.depurple.so
@@ -418,9 +417,32 @@ vendor/lib64/libvideofilter_only.so
 vendor/lib64/libvidhance.so
 vendor/lib64/libxmi_high_dynamic_range.so
 vendor/lib64/libxml2_vendor.so
-vendor/lib64/vendor.qti.hardware.camera.device@1.0.so
 
-# Camera sensors - curtana & gram
+# Camera (configs) - from Redmi/curtana_global/curtana:12/RKQ1.211019.001/V14.0.4.0.SJWMIXM:user/release-keys
+vendor/etc/camera/102_SummerDay.png|e27c1ad14c763cbc0159aa5a0357b934cbc16ced
+vendor/etc/camera/103_Fantasy.png|0eb52c60f767c4a9b26b22f4ee35ec646545a123
+vendor/etc/camera/104_Meet.png|6311603a50532eece3f92cce50898a29c1d4995c
+vendor/etc/camera/105_WindSing.png|8d07722a63e5619fbd3b293078ae67dfe271a72c
+vendor/etc/camera/106_Lost.png|61a35b9eb3c6286357ba213cfce0b3e1fc112fd6
+vendor/etc/camera/107_Central.png|64c1e291c873ff7715ee9017c3a0d6cae48a9b6a
+vendor/etc/camera/108_NorthernEurope.png|b6a0847fcf1d87d5db0cae2c9a589b9780e1cbbe
+vendor/etc/camera/109_Rome.png|d5eb2a236ff03ef1a18a06323ed7ea1e10d3216f
+vendor/etc/camera/110_BlackGold.png|bf0b84c9cc417a78f38fa01606160a80d0fda3d2
+vendor/etc/camera/111_GreenOrange.png|7ccb8c48068296275ab440129750cddc47e26f4d
+vendor/etc/camera/112_CyberPunk.png|a8245aafb5cf4a2bf2aa1ed58ad35dc3140607bb
+vendor/etc/camera/113_BlackIce.png|00bb1b9b499aca960475b79414b5a076324c8b46
+vendor/etc/camera/CFR_para_M_src3.bin|e44cd55af5471410074a550da53574f198028dcc
+vendor/etc/camera/almalence_sr_params_tele.config|a5216343ebac981b47670522cf0a56960181f5cd
+vendor/etc/camera/almalence_sr_params_wide.config|9567cf89e5347348ea5e10035c3f2635b9fd8162
+vendor/etc/camera/beauty_ui9_intelligent_params.config|61b3c3b6cd4ac946ddbc41a807b5906bb2c1e113
+vendor/etc/camera/body_slim_ui9_params.config|6a341b766aa06b6f8496fd96c440ea27a023eb0b
+vendor/etc/camera/vidhance_calibration_gc8034|836a329142bbfa77525567963e88379686e29b2f
+vendor/etc/camera/vidhance_calibration_imx582|377d5cc5e7dce32bb5c4bccd581f6945744be614
+vendor/etc/camera/vidhance_calibration_ov8856|32b776da7e6189c3045a1f4f01a4601d0f2a60b0
+vendor/etc/camera/vidhance_calibration_s5kgm2|49e036cda525cc1a73dc2a87400fd11c1d7e879e
+vendor/etc/camera/vidhance_calibration_s5kgw1|b4c1775771a1a5d03e8401e7a6091798701dc8aa
+
+# Camera sensors (curtana & gram) - from Redmi/curtana_global/curtana:12/RKQ1.211019.001/V14.0.4.0.SJWMIXM:user/release-keys
 vendor/lib/camera/com.qti.sensormodule.ofilm_gc02m1_filter.bin|4687d1d2eb8d36b5bed2ceafb197ef21d22bd97e
 vendor/lib/camera/com.qti.sensormodule.ofilm_s5kgm2.bin|5ebb58c43e95d598f35a0808a0497f51affdcbd6
 vendor/lib/camera/com.qti.sensormodule.sunny_imx582.bin|0b0d77edf59fe95073c16ed8698a00e7b5a5ed3c
@@ -468,8 +490,22 @@ vendor/lib64/libMegviiFacepp-0.5.2.so
 vendor/lib64/libmegface.so
 
 # Camera provider
-vendor/lib/android.hardware.camera.provider@2.4-legacy.so
+vendor/bin/hw/android.hardware.camera.provider@2.4-service_64
+vendor/etc/init/android.hardware.camera.provider@2.4-service_64.rc
+vendor/lib/vendor.qti.hardware.camera.device@1.0.so
+vendor/lib64/hw/android.hardware.camera.provider@2.4-impl.so
+vendor/lib64/android.hardware.camera.provider@2.4-external.so
 vendor/lib64/android.hardware.camera.provider@2.4-legacy.so
+vendor/lib64/camera.device@1.0-impl.so
+vendor/lib64/camera.device@3.2-impl.so
+vendor/lib64/camera.device@3.3-impl.so
+vendor/lib64/camera.device@3.4-external-impl.so
+vendor/lib64/camera.device@3.4-impl.so
+vendor/lib64/camera.device@3.5-external-impl.so
+vendor/lib64/camera.device@3.5-impl.so
+vendor/lib64/camera.device@3.6-external-impl.so
+vendor/lib64/vendor.qti.hardware.camera.device@1.0.so
+vendor/lib64/vendor.qti.hardware.camera.device@3.5.so
 
 # CDSP
 vendor/bin/cdsprpcd

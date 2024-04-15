@@ -59,8 +59,12 @@ function blob_fixup() {
     system_ext/lib64/lib-imsvideocodec.so )
     "${PATCHELF}" --add-needed "lib-imsvt.so" "${2}"
     ;;
+    vendor/etc/camera/camxoverridesettings.txt)
+    sed -i "s/0x10082/0/g" "${2}"
+    sed -i "s/0x1F/0x0/g" "${2}"
+    ;;
     vendor/lib64/camera/components/com.qti.node.watermark.so)
-    "${PATCHELF}" --add-needed "libwatermark_shim.so" "${2}"
+    grep -q "libpiex_shim.so" "${2}" || "${PATCHELF}" --add-needed "libpiex_shim.so" "${2}"
     ;;
     esac
 }
