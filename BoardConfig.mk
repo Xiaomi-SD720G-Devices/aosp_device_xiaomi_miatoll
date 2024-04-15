@@ -124,7 +124,7 @@ ODM_MANIFEST_SKUS += \
     joyeuse
 
 # Init
-TARGET_INIT_VENDOR_LIB ?= //$(COMMON_PATH):init_xiaomi_atoll
+TARGET_INIT_VENDOR_LIB ?= //$(DEVICE_PATH):init_xiaomi_atoll
 TARGET_RECOVERY_DEVICE_MODULES ?= init_xiaomi_atoll
 
 # Media
