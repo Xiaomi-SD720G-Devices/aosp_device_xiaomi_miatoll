@@ -8,6 +8,7 @@ DEVICE_PATH := device/xiaomi/miatoll
 
 BUILD_BROKEN_DUP_RULES := true
 BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
+BUILD_BROKEN_INCORRECT_PARTITION_IMAGES := true
 BUILD_BROKEN_ENFORCE_SYSPROP_OWNER := true
 BUILD_BROKEN_VENDOR_PROPERTY_NAMESPACE := true
 TARGET_USES_PREBUILT_CAMERA_SERVICE := true
@@ -222,7 +223,7 @@ include device/qcom/sepolicy_vndr/legacy-um/SEPolicy.mk
 
 SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/private
 SYSTEM_EXT_PUBLIC_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/public
-BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
+BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 BOARD_SEPOLICY_M4DEFS += sysfs_battery_supply=vendor_sysfs_battery_supply
 
 # Verified Boot

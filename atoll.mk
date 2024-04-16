@@ -285,6 +285,7 @@ PRODUCT_PACKAGES += \
 
 # Media
 PRODUCT_PACKAGES += \
+    android.media.audio.common.types-V2-cpp \
     libmm-omxcore \
     libOmxAacEnc \
     libOmxAmrEnc \
