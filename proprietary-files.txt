@@ -1004,8 +1004,6 @@ vendor/lib64/liblistensoundmodel2.so
 vendor/lib64/libmulawdec.so
 
 # Media - from Redmi/curtana_global/curtana:12/RKQ1.211019.001/V14.0.4.0.SJWMIXM:user/release-keys
-vendor/etc/seccomp_policy/mediacodec.policy
-vendor/etc/system_properties.xml
 vendor/lib/libAlacSwDec.so
 vendor/lib/libApeSwDec.so
 vendor/lib/libFlacSwDec.so
