@@ -1,10 +1,18 @@
 [
   {
-    "repository": "vendor_xiaomi_miatoll",
-    "target_path": "vendor/xiaomi/miatoll"
+    "repository": "AOSP-clang",
+    "target_path": "prebuilts/clang/host/linux-x86/clang-r498229b"
   },
     {
     "repository": "android_hardware_sony_timekeep",
+    "target_path": "hardware/sony/timekeep"
+  },
+  {
+    "repository": "hardware_dolby",
+    "target_path": "hardware/dolby"
+  },
+  {
+    "repository": "hardware_sony_timekeep",
     "target_path": "hardware/sony/timekeep"
   },
   {
@@ -14,6 +22,10 @@
   {
     "repository": "kernel_xiaomi_sm6250",
     "target_path": "kernel/xiaomi/sm6250"
+  },
+  {
+    "repository": "vendor_xiaomi_miatoll",
+    "target_path": "vendor/xiaomi/miatoll"
   },
   {
     "repository": "vendor_xiaomi_miuicamera",
