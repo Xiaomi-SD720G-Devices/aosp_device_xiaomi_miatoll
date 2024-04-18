@@ -2,7 +2,7 @@
 git clone -b clang-r498229b https://github.com/Xiaomi-SD720G-Devices/AOSP-clang.git prebuilts/clang/host/linux-x86/clang-r498229b --depth=1
 
 # hardware/dolby
-git clone -b main https://github.com/userariii/hardware_dolby.git hardware/dolby --depth=1
+git clone -b v1.1-daxappui https://github.com/userariii/hardware_Motorola_Dolby.git hardware/Motorola/Dolby
 
 # hardware/sony/timekeep
 git clone -b lineage-21 https://github.com/LineageOS/android_hardware_sony_timekeep.git hardware/sony/timekeep --depth=1

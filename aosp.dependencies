@@ -8,8 +8,8 @@
     "target_path": "hardware/sony/timekeep"
   },
   {
-    "repository": "hardware_dolby",
-    "target_path": "hardware/dolby"
+    "repository": "hardware_Motorola_Dolby",
+    "target_path": "hardware/Motorola/Dolby"
   },
   {
     "repository": "hardware_sony_timekeep",
