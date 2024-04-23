@@ -32,8 +32,3 @@ ELIXIR_BUILD_TYPE := OFFICIAL
 EXCLUDE_LAWNCHAIR := true
 BUILD_USERNAME := userariii
 BUILD_HOSTNAME := aosp
-
-PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="miatoll_global-user 12 SKQ1.211019.001 V14.0.3.0.SJZMIXM release-keys"
-
-BUILD_FINGERPRINT := Xiaomi/miatoll_global/miatoll:12/RKQ1.211019.001/V14.0.3.0.SJZMIXM:user/release-keys
