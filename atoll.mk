@@ -346,10 +346,6 @@ PRODUCT_PACKAGES += \
     libavservices_minijail_vendor \
     libavservices_minijail.vendor
 
-# MiuiCamera
-$(call inherit-product-if-exists, vendor/xiaomi/miuicamera/config.mk)
-TARGET_SHIPS_GALLERY := false
-
 # Network
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.ipsec_tunnels.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.ipsec_tunnels.xml

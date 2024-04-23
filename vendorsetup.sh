@@ -25,4 +25,3 @@ git clone -b 14-OpenELA https://github.com/ProjectElixir-Devices/kernel_xiaomi_s
 # vendor/xiaomi
 rm -rf vendor/xiaomi
 git clone -b Fourteen https://github.com/ProjectElixir-Devices/vendor_xiaomi_miatoll.git vendor/xiaomi/miatoll --depth=1
-git clone -b miuicam https://gitlab.com/userariii/vendor-xiaomi-miuicamera.git vendor/xiaomi/miuicamera --depth=1
