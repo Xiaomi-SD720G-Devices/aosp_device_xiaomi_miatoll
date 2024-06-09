@@ -25,10 +25,19 @@
     </hal>
     <hal format="aidl" optional="true">
         <name>android.hardware.bluetooth.audio</name>
+        <version>2</version>
         <interface>
             <name>IBluetoothAudioProviderFactory</name>
             <instance>default</instance>
         </interface>
+    </hal>
+    <hal format="aidl" optional="true">
+    <version>1</version>
+    <name>android.hardware.cas</name>
+    <interface>
+        <name>IMediaCasService</name>
+        <instance>default</instance>
+    </interface>
     </hal>
     <hal format="hidl" optional="true">
         <name>android.hardware.cas</name>
@@ -43,6 +52,18 @@
         <interface>
             <name>IDrmFactory</name>
             <instance>clearkey</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>android.hardware.drm</name>
+        <version>1.0-3</version>
+        <interface>
+            <name>ICryptoFactory</name>
+            <instance>wfdhdcp</instance>
+        </interface>
+        <interface>
+            <name>IDrmFactory</name>
+            <instance>wfdhdcp</instance>
         </interface>
     </hal>
     <hal format="hidl" optional="true">
@@ -99,8 +120,17 @@
             <instance>default</instance>
         </interface>
     </hal>
+    <hal format="hidl" optional="true">
+        <name>android.hardware.keymaster</name>
+        <version>4.0-1</version>
+        <interface>
+            <name>IKeymasterDevice</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
     <hal format="aidl" optional="true">
         <name>android.hardware.light</name>
+        <version>2</version>
         <interface>
             <name>ILights</name>
             <instance>default</instance>
@@ -167,14 +197,31 @@
         </interface>
     </hal>
     <hal format="aidl" optional="true">
+        <name>android.hardware.thermal</name>
+        <interface>
+            <name>IThermal</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="aidl" optional="true">
         <name>android.hardware.vibrator</name>
+        <version>2</version>
         <interface>
             <name>IVibrator</name>
             <instance>default</instance>
         </interface>
     </hal>
     <hal format="aidl" optional="true">
+    <name>android.hardware.wifi</name>
+    <version>1</version>
+    <interface>
+        <name>IWifi</name>
+        <instance>default</instance>
+    </interface>
+    </hal>
+    <hal format="aidl" optional="true">
         <name>android.hardware.wifi.hostapd</name>
+        <version>1</version>
         <interface>
             <name>IHostapd</name>
             <instance>default</instance>
