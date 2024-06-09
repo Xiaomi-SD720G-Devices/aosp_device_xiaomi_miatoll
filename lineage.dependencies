@@ -30,9 +30,5 @@
   {
     "repository": "vendor_xiaomi_miatoll",
     "target_path": "vendor/xiaomi/miatoll"
-  },
-  {
-    "repository": "vendor_xiaomi_miuicamera",
-    "target_path": "vendor/xiaomi/miuicamera"
   }
 ]

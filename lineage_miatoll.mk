@@ -1,8 +1,8 @@
 # Inherit from miatoll  device
 $(call inherit-product, device/xiaomi/miatoll/atoll.mk)
 
-# Inherit some common aosp stuff.
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+# Inherit some common lineage stuff.
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Bootanimation Resolution
 TARGET_BOOT_ANIMATION_RES := 1080
@@ -11,7 +11,7 @@ TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_SUPPORTS_NEXT_GEN_ASSISTANT := true
 
 # Device identifier
-PRODUCT_NAME := aosp_miatoll
+PRODUCT_NAME := lineage_miatoll
 PRODUCT_DEVICE := miatoll
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := SM6250
@@ -27,8 +27,5 @@ TARGET_INCLUDE_LIVE_WALLPAPERS := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_SUPPORTS_QUICK_TAP := true
 
-# Elixir stuff
-ELIXIR_BUILD_TYPE := OFFICIAL
-EXCLUDE_LAWNCHAIR := true
 BUILD_USERNAME := userariii
-BUILD_HOSTNAME := aosp
+BUILD_HOSTNAME := lineage
