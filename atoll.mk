@@ -76,12 +76,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/permissions/privapp-permissions-hotword.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-hotword.xml \
     $(LOCAL_PATH)/permissions/hotword-hiddenapi-package-whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/hotword-hiddenapi-package-whitelist.xml
 
-# AVB
-PRODUCT_PACKAGES += \
-    q-gsi.avbpubkey \
-    r-gsi.avbpubkey \
-    s-gsi.avbpubkey
-
 # Bluetooth
 PRODUCT_PACKAGES += \
     audio.bluetooth.default
@@ -128,7 +122,6 @@ PRODUCT_PACKAGES += \
     gralloc.atoll \
     hwcomposer.atoll \
     libdisplayconfig.qti \
-    libdisplayconfig.qti.vendor \
     libqdMetaData \
     libtinyxml \
     memtrack.atoll \
@@ -161,11 +154,7 @@ PRODUCT_PACKAGES += \
     android.hardware.drm@1.0-impl \
     android.hardware.drm@1.0-service \
     android.hardware.drm-service.clearkey \
-    android.hardware.drm@1.3.vendor
-
-# DSP
-PRODUCT_PACKAGES += \
-    vendor.qti.hardware.dsp@1.0
+    android.hardware.drm@1.4.vendor
 
 # Fastbootd
 PRODUCT_PACKAGES += \
@@ -222,6 +211,7 @@ PRODUCT_PACKAGES += \
 # Crypto
 PRODUCT_PACKAGES += \
     android.hardware.gatekeeper@1.0.vendor \
+    android.hardware.keymaster@4.0.vendor \
     android.hardware.keymaster@4.1.vendor
 
 # HIDL
@@ -460,9 +450,8 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.sensor.stepcounter.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.sensor.stepcounter.xml \
     frameworks/native/data/etc/android.hardware.sensor.stepdetector.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.sensor.stepdetector.xml
 
-#servicetracker HAL
+# servicetracker HAL
 PRODUCT_PACKAGES += \
-    vendor.qti.hardware.servicetracker@1.2-impl \
     vendor.qti.hardware.servicetracker@1.2-service
 
 # NeuralNetworks
@@ -492,8 +481,7 @@ PRODUCT_SOONG_NAMESPACES += \
     kernel/xiaomi/sm6250
 
 # Spatial Audio
-PRODUCT_PACKAGES += \
-    libspatialaudio \
+PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.sensor.dynamic.head_tracker.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.sensor.dynamic.head_tracker.xml
 
 # Spatial Audio: optimize spatializer effect
@@ -532,10 +520,6 @@ PRODUCT_COPY_FILES += \
 # Tethering
 PRODUCT_PACKAGES += \
     TetheringConfigOverlay
-
-# TextClassifier
-PRODUCT_PACKAGES += \
-    textclassifier.bundle1
 
 # Thermal
 PRODUCT_COPY_FILES += \
@@ -616,7 +600,6 @@ PRODUCT_COPY_FILES += \
 
 # WiFi
 PRODUCT_PACKAGES += \
-    android.hardware.wifi@1.0-service \
     android.hardware.wifi-service \
     hostapd \
     libwifi-hal-qcom \
