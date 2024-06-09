@@ -11,8 +11,8 @@ git clone -b lineage-21 https://github.com/LineageOS/android_hardware_sony_timek
 git clone -b lineage-21 https://github.com/LineageOS/android_hardware_xiaomi.git hardware/xiaomi --depth=1
 
 # kernel/xiaomi
-git clone -b Tiramisu https://github.com/Xiaomi-SD720G-Devices/android_kernel_xiaomi_sm6250.git kernel/xiaomi/sm6250 --depth=1
+git clone -b thirteen https://github.com/Xiaomi-SD720G-Devices/android_kernel_xiaomi_sm6250.git kernel/xiaomi/sm6250 --depth=1
 
 # vendor/xiaomi
 git clone -b Tiramisu https://github.com/Xiaomi-SD720G-Devices/aosp_vendor_xiaomi_miatoll.git vendor/xiaomi/miatoll --depth=1
-git clone -b Tiramisu https://gitlab.com/userariii/vendor-xiaomi-miuicamera.git vendor/xiaomi/miatoll --depth=1
+git clone -b Tiramisu https://gitlab.com/userariii/vendor-xiaomi-miuicamera.git vendor/xiaomi/miuicamera --depth=1
