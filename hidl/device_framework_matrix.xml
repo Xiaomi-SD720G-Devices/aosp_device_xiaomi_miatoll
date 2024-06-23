@@ -144,6 +144,7 @@
         <interface>
             <name>IComponentStore</name>
             <instance>software</instance>
+            <instance>default</instance>
         </interface>
     </hal>
     <hal format="hidl" optional="true">
