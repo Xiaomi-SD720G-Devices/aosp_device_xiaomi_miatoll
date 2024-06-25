@@ -647,3 +647,7 @@ PRODUCT_DEXPREOPT_SPEED_APPS += \
     SystemUIGoogle \
     Nexuslauncher \
     lawnchair
+
+# DeviceSettings
+PRODUCT_PACKAGES += \
+    XiaomiParts
