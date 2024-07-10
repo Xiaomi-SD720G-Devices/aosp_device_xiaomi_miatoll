@@ -634,18 +634,6 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.wifi.passpoint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.wifi.passpoint.xml \
     frameworks/native/data/etc/android.hardware.wifi.rtt.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.wifi.rtt.xml
 
-# WiFi Display
-PRODUCT_PACKAGES += \
-    libnl \
-    libwfdaac_vendor
-
-PRODUCT_PACKAGES += \
-    android.media.audio.common.types-V2-cpp \
-    vendor.qti.hardware.display.config-V5-ndk
-
-PRODUCT_BOOT_JARS += \
-    WfdCommon
-
 # Speed up
 PRODUCT_DEXPREOPT_SPEED_APPS += \
     Launcher3QuickStep \
