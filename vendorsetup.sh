@@ -1,3 +1,18 @@
+echo "----------------------------"
+echo "Nuking existing dependencies"
+echo "----------------------------"
+echo
+rm-rf prebuilts/clang/host/linux-x86/clang-r498229b
+rm-rf hardware/Motorola/Dolby
+rm-rf hardware/google/pixel
+rm-rf hardware/sony/timekeep
+rm-rf hardware/xiaomi
+rm-rf kernel/xiaomi/sm6250
+rm-rf vendor/xiaomi/miatoll
+echo "Deleted existing dependencies, if there's any."
+echo
+echo "Clonning the dependencies for miatoll"
+echo
 # clang v17.0.4
 git clone -b clang-r498229b https://github.com/Xiaomi-SD720G-Devices/AOSP-clang.git prebuilts/clang/host/linux-x86/clang-r498229b --depth=1
 

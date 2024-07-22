@@ -1,0 +1,7 @@
+prebuilts/clang/host/linux-x86/clang-r498229b
+hardware/Motorola/Dolby
+hardware/google/pixel
+hardware/sony/timekeep
+hardware/xiaomi
+kernel/xiaomi/sm6250
+vendor/xiaomi/miatoll
