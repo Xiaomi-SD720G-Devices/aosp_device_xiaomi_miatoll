@@ -16,6 +16,9 @@ echo
 # clang v17.0.4
 git clone -b clang-r498229b https://github.com/Xiaomi-SD720G-Devices/AOSP-clang.git prebuilts/clang/host/linux-x86/clang-r498229b --depth=1
 
+# Camera
+git clone -b miuicam https://gitlab.com/userariii/vendor-xiaomi-miuicamera.git vendor/xiaomi/miuicamera --depth=1
+
 # hardware/Motorola/Dolby
 git clone -b v1.1-daxappui https://github.com/userariii/hardware_Motorola_Dolby.git hardware/Motorola/Dolby
 
