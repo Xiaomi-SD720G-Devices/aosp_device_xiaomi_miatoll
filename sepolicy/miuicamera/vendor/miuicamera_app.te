@@ -1,0 +1,21 @@
+type miuicamera_app, domain, coredomain;
+
+app_domain(miuicamera_app)
+net_domain(miuicamera_app)
+
+allow miuicamera_app {
+    app_api_service
+    audioserver_service
+    cameraserver_service
+    mediaextractor_service
+    mediametrics_service
+    mediaserver_service
+}:service_manager find;
+
+dontaudit miuicamera_app radio_service:service_manager find;
+
+allow miuicamera_app hal_camerapostproc_xiaomi_hwservice:hwservice_manager find;
+allow miuicamera_app hal_misys_hwservice:hwservice_manager find;
+allow miuicamera_app privapp_data_file:file execute;
+allow miuicamera_app vendor_camera_data_file:dir search;
+allow miuicamera_app vendor_camera_data_file:file r_file_perms;
