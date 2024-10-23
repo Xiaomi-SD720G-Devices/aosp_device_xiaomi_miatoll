@@ -292,6 +292,9 @@ PRODUCT_PACKAGES += \
     SM6250LineageDialer \
     SM6250LineageSDK
 
+DEVICE_PACKAGE_OVERLAYS += \
+    $(LOCAL_PATH)/overlay-aosp
+
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
